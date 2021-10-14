@@ -1,0 +1,12 @@
+name: wsj1_2345_db
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+    - python
+    - numpy
+    - scipy
+    - pip
+    - ffmpeg
+    - pip:
+        - pyroomacoustics
